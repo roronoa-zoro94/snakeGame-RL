@@ -43,7 +43,7 @@ class SnakeGame:
 
         # initialize game state
         self.direction = Direction.RIGHT
-        self.head = Point(self.w/2, self.h/2)
+        self.head = Point(0, self.h/2)
         self.snake = [self.head,
                       Point(self.head.x-BLOCK_SIZE, self.head.y),
                       Point(self.head.x-(2*BLOCK_SIZE), self.head.y)]
